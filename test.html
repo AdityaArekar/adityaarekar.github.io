@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome!</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="login-page">
+  <div class="form">
+
+     
+    <form class="register-form" action="conn.php" method= POST>
+      <input type="text" name = "fname" placeholder="name"/>
+      <input type="password" name = "passhash" placeholder="password"/>
+      <input type="text" name = "email" placeholder="email address"/>
+      <button type = "submit" name="submit">create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+
+
+    <form class="login-form">
+      <input type="text" placeholder="username"/>
+      <input type="password" placeholder="password"/>
+      <button type = "submit" name="login1">Login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
+
+
